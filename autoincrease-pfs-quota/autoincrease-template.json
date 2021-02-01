@@ -11,11 +11,9 @@
       },
       "storageAccountType": {
         "type": "string",
-        "defaultValue": "Standard_LRS",
+        "defaultValue": "Premium_LRS",
         "allowedValues": [
-          "Standard_LRS",
-          "Standard_GRS",
-          "Standard_RAGRS"
+          "Premium_ZRS"
         ],
         "metadata": {
           "description": "Storage Account type"
